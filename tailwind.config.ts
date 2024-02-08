@@ -27,6 +27,11 @@ const config: Config = {
       },
     },
   },
+  variants: {
+    extend: {
+      textColor: ['not-first'],
+    },
+  },
   plugins: [require('@tailwindcss/forms')],
 };
 export default config;
